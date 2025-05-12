@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲：情境應對</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game-style.css">
+</head>
+<body>
+    <header>
+        <h1>遊戲：情境應對</h1>
+        <p>在以下情境中，選擇你認為最合適、最有建設性的回應。</p>
+        <p><a href="index.html">&laquo; 返回主頁</a></p>
+    </header>
+
+    <main>
+        <div id="game-area">
+            <div id="scenario-description">這裡會顯示情境描述...</div>
+            <div id="options-area">
+                <!-- 回應選項按鈕會動態加載到這裡 -->
+            </div>
+            <p id="feedback"></p>
+            <button id="btn-next" style="display: none;">下一個情境</button>
+        </div>
+        <div id="score-area" style="display: none;">
+            <h2>遊戲結束！</h2>
+            <p>你完成了所有情境！</p>
+             <!-- 或可加入評分機制 -->
+            <p><a href="game-scenario.html">重新開始</a> | <a href="index.html">返回主頁</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>保護兒童，從尊重言語開始。</p>
+    </footer>
+
+    <script src="game-scenario.js"></script>
+</body>
+</html> 

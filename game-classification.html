@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲：辨識與分類言語</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game-style.css"> <!-- 將為遊戲新增特定樣式 -->
+</head>
+<body>
+    <header>
+        <h1>遊戲：辨識與分類言語</h1>
+        <p>判斷以下語句是「傷害性」還是「支持性」的言語。</p>
+        <p><a href="index.html">&laquo; 返回主頁</a></p>
+    </header>
+
+    <main>
+        <div id="game-area">
+            <p id="statement">這裡會顯示要判斷的語句...</p>
+            <button id="btn-harmful">傷害性</button>
+            <button id="btn-supportive">支持性</button>
+            <p id="feedback"></p>
+            <button id="btn-next" style="display: none;">下一題</button>
+        </div>
+        <div id="score-area" style="display: none;">
+            <h2>遊戲結束！</h2>
+            <p>你的得分：<span id="final-score">0</span> / <span id="total-questions">0</span></p>
+            <p><a href="game-classification.html">重新開始</a> | <a href="index.html">返回主頁</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>保護兒童，從尊重言語開始。</p>
+    </footer>
+
+    <script src="game-classification.js"></script> <!-- 遊戲邏輯將放在這裡 -->
+</body>
+</html> 

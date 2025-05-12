@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遊戲：知識問答</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game-style.css">
+</head>
+<body>
+    <header>
+        <h1>遊戲：知識問答</h1>
+        <p>測驗你對言語虐待影響神經科學知識的了解程度。</p>
+        <p><a href="index.html">&laquo; 返回主頁</a></p>
+    </header>
+
+    <main>
+        <div id="game-area">
+            <div id="question-text">這裡會顯示問題...</div>
+            <div id="options-area">
+                <!-- 選項按鈕會動態加載到這裡 -->
+            </div>
+            <p id="feedback"></p>
+            <button id="btn-next" style="display: none;">下一題</button>
+        </div>
+        <div id="score-area" style="display: none;">
+            <h2>測驗結束！</h2>
+            <p>你的得分：<span id="final-score">0</span> / <span id="total-questions">0</span></p>
+            <p><a href="game-quiz.html">重新測驗</a> | <a href="index.html">返回主頁</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>保護兒童，從尊重言語開始。</p>
+    </footer>
+
+    <script src="game-quiz.js"></script>
+</body>
+</html> 

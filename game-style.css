@@ -1,0 +1,72 @@
+/* game-style.css */
+
+#game-area, #score-area {
+    background-color: #e9f7fe; /* 淡藍色背景 */
+    border: 1px solid #bce8f1; /* 邊框顏色 */
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#statement, #scenario-description, #question-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    min-height: 50px; /* 確保有基本高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#options-area button, #game-area button {
+    background-color: #007bff; /* 藍色按鈕 */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#options-area button:hover, #game-area button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 24px; /* 預留空間避免跳動 */
+}
+
+.correct {
+    color: #28a745; /* 綠色 */
+}
+
+.incorrect {
+    color: #dc3545; /* 紅色 */
+}
+
+/* 針對特定遊戲的微調 (可選) */
+#options-area {
+    display: flex;
+    flex-direction: column; /* 情境和問答選項垂直排列 */
+    align-items: center;
+}
+
+#game-area #btn-next {
+    background-color: #28a745; /* 下一題用綠色 */
+}
+#game-area #btn-next:hover {
+    background-color: #218838;
+}
+
+/* 分類遊戲的按鈕並排 */
+#game-area #btn-harmful, #game-area #btn-supportive {
+   /* 可以維持預設的 inline-block 或 flex 排列 */
+} 
