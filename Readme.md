@@ -38,4 +38,5 @@ prevention/  (目錄名稱維持不變，或可考慮更改)
 
 ## 如何運行
 
-直接在網頁瀏覽器中開啟 `index.html` 文件即可瀏覽網站內容與進行遊戲。 
+直接在網頁瀏覽器中開啟 `index.html` 文件即可瀏覽網站內容與進行遊戲，
+或著，直接點擊[連結](https://jeffery8910.github.io/childrenbrainhealthwebsite/)預覽。
